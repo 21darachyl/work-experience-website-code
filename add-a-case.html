@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="index-header">
+      <div class="action-buttons"><a href="page2.html">back</a></div>
+      <h1>Add a case</h1>
+
+      <img src="./public_images/i2 logo.png" alt="logo" />
+    </header>
+    <form id="caseForm">
+      <label for="title">title</label>
+      <input type="text" id="title" name="title" />
+      <label for="conext">context</label>
+      <input
+        type="text"
+        placeholder="explain type of evidence being submitted"
+        name="context"
+        id="context"
+      />
+      <label for="image-upload">image</label>
+      <input
+        type="file"
+        id="imageEvidence"
+        name="image-upload"
+        accept="image/*"
+      />
+      <label for="audioevidence">audio</label>
+      <input
+        type="file"
+        id="audioEvidence"
+        name="audio-evidence"
+        accept="audio/*"
+      />
+      <label for="casedescription">case description</label>
+      <textarea
+        name="casedescription"
+        rows="10"
+        id="textArea"
+        cols="50"
+      ></textarea>
+      <button type="submit">submit</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>

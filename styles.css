@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Libre Franklin, sans serif;
+}
+body{
+    min-height: 100vh;
+}
+
+h1{
+    color: rgb(255, 255, 255);}
+.index-header{
+    height: 140px;
+    background-color: rgb(6, 6, 59);
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 20px;
+}
+footer{
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+     display: flex ;
+     justify-content:center;
+    align-items: center;
+}
+.main {
+    width: 75vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 250px;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 15%;
+    flex: 1;
+    margin-left: 49px;
+
+}
+a{
+    text-decoration: none;
+}
+a:link {
+color: rgb(0, 0, 0);
+}
+.page2-header{
+    padding: 10px;
+    background-color: rgb(6, 6, 59);
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.action-buttons{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 60px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+
+    
+}
+.action-container{
+    display: flex;
+    gap: 10px;
+
+}
+.case-container{
+    background-color: rgb(56, 56, 56);
+    margin: 15px;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.case-link{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    height: 60px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 5px;
+    padding: 10px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+label{
+    font-weight: bold;
+    text-decoration: underline;
+}
